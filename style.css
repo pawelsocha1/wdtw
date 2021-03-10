@@ -1,0 +1,28 @@
+div {
+    background-color: aqua;
+padding 30px;
+width:100px;
+height:200px;
+position: absoulte;
+}
+#title {
+    background-color: crimson;
+    width: 100px;
+    height: 300px;
+    position: absolute;
+}
+#a1 {
+background-color: lightgreen;
+top:0;
+left: 100%;
+}
+#a2 {
+    background-color: bisque;
+    top: 0;
+    right: 100%;
+}
+#a3 {
+    background-color: cornflowerblue;
+    bottom: 100%;
+    left: 0;
+}
