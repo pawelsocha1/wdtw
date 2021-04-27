@@ -1,8 +1,15 @@
 body {
     
-    width: 350px;
+    margin:0;
+    
+}
+main {
     font-family: Arial, Helvetica, sans-serif;
+    width:350px;
     margin:auto;
+    height:100%;
+    overflow-y:scroll;
+    
 }
 
 
@@ -10,15 +17,14 @@ body {
     
     background-color: #252a3a;
     padding-top:10px;
-    padding-bottom:15px;
-   
-    
+    padding-bottom:15px;  
 }
 
-.menu:hover{
+/*.menu:hover{
     height:100%;  
+    display:block;
     
-}
+}*/
 .menu p{
     
     padding-top:10px;
@@ -33,7 +39,11 @@ body {
     margin-left: 20px;
     text-decoration: none;
 }
+ ul {
+    list-style-type: square;
+    font-size:16px;
 
+}
 #przycisk{
     outline:none;
     border:none;
@@ -49,21 +59,22 @@ body {
     background-color: #1B98F8;
     border: none;
     color: white;
-    width: 36%;
-margin-left: 32%;
-margin-right: 32%
+    width: 50%;
+margin-left: 25%;
+margin-right: 25%
 }
+
+
+   
 
 
 .wiadomosci {
     background-color: white;
     display:grid;
-    height: 100%;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 5fr;
     border-top:14px;
     border-bottom: 1px solid rgb(212,212,212);
-    overflow:hidden;
-
+    
 }
 .wiadomosci:hover {
     background-color: #eee;
@@ -79,6 +90,7 @@ margin-right: 32%
     border-radius: 3px;
     margin-right:8px;
     margin-top: 20px;
+    margin-left:10px;
 }
 .imie {
     font-size: 13px;
@@ -90,6 +102,8 @@ margin-right: 32%
     border-bottom: 1px solid rgb(212,212,212);
     display: grid;
     grid-template-columns:50% 50%;
+    height:auto;
+   
 }
 #tytul {
    color:black;
@@ -100,7 +114,13 @@ margin-right: 32%
     border-bottom:26px;
     color: #666;
     border-radius:20px;
-    size:16px;
+    size: 5px;
+}
+#przyciski {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:10px;
+    margin:10px;
 }
 #info {
     font-size:16px;
@@ -112,4 +132,46 @@ margin-right: 32%
 .tresci {
     font-size:16px;
     margin:16px;
+}
+
+
+
+@media screen and (min-width: 960px) {
+    main {
+      height:100%;
+      width: 100%;
+      display:flex;
+      flex-direction: row;
+      overflow:none;
+      
+    }
+    .menu {
+        width: 20%;
+        
+    }
+    .maile {
+       width: auto;
+       height:15%;
+       
+    }
+   
+  
+  #przycisk{
+      display:none;
+  }
+
+  
+  #selektor {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+}
+@media screen and (max-width: 960px) and (max-height: 600px){
+    main {
+        display:grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    
 }

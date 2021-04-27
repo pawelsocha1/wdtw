@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
     <div class="menu">
         <button id="przycisk">Menu</button>
         <div class="reszta">
@@ -19,29 +19,29 @@
         <p><a class ="reszta_menu" href="#">Drafts</a></p>
         <p><a class ="reszta_menu" href="#">Trash</a></p>
         <p>LABELS</p>
-        <p><a class ="reszta_menu" href="#">Private</a></p>
-        <p><a class ="reszta_menu" href="#">Job</a></p>
-        <p><a class ="reszta_menu" href="#">Flights</a></p>
-        
+        <ul>
+        <li style="color:yellow"><a class ="reszta_menu" href="#">Private</a></li>
+        <li style="color:aqua"><a class ="reszta_menu" href="#">Job</a></li>
+        <li style="color:greenyellow"><a class ="reszta_menu" href="#">Flights</a></li>
+        </ul>
     </div>
     </div>
-    
+    <selektor id="selektor">
         <div id="wiadomosci">
-            
             <div class="wiadomosci">
                 <img class="avatar" src="avatary/p1.png">
                 <div class="tresci">
                     <p class="imie">Johnny Cash</p>
-                    <p class="tytul">Re:Pull Requests</p>
+                    <b class="tytul">Re:Pull Requests</b>
                     <p class="tresc">Really, better give that money back. Papa Joe is waiting.</p>
                 
                 </div>
             </div>
-        <div class="wiadomosci">
+        <div class="wiadomosci">  
             <img class="avatar" src="avatary/p2.png">
             <div class="tresci">
                 <p class="imie">May June</p>
-                <p class="tytul">New York New Yoork</p>
+                <b class="tytul">New York New Yoork</b>
                 <p class="tresc">Hey, confirm our meeting today, Fifth Avenue. Hmm?</p>
             </div>
         </div>
@@ -49,47 +49,55 @@
             <img class="avatar" src="avatary/p3.png">
             <div class="tresci">
                 <p class="imie">Your wordpress</p>
-                <p class="tytul">Last warning</p>
+                <b class="tytul">Last warning</b>
                 <p class="tresc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
+        
         <div class="wiadomosci">
             <img class="avatar" src="avatary/p4.png">
             <div class="tresci">
-                <p class="imie">Mary Jane</p>
-                <p class="tytul">New York</p>
+                <p class="imie">June Ray</p>
+                <b class="tytul">Re:That Night</b>
                 <p class="tresc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
         <div class="wiadomosci">
             <img class="avatar" src="avatary/p5.png">
             <div class="tresci">
-                <p class="imie">Mary Jane</p>
-                <p class="tytul">New York</p>
+                <p class="imie">Chris Duck</p>
+                <b class="tytul">What about materials?</b>
                 <p class="tresc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
         <div class="wiadomosci">
             <img class="avatar" src="avatary/p6.png">
             <div class="tresci">
-                <p class="imie">Mary Jane</p>
-                <p class="tytul">New York</p>
+                <p class="imie">Helen Dominic</p>
+                <b class="tytul">You're crazy, really!</b>
                 <p class="tresc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
     </div>
+  <container>
 <div class="maile">
-    <div id="tytul">Aliquam ac feugiat dolor</div>
+    <b id="tytul">Aliquam ac feugiat dolor</b>
+    <div id="przyciski">
+        <button class="przyciski">Reply</button>
+        <button class="przyciski">Forward</button>
+        <button class="przyciski">Move to</button>
+        </div>
     <div id="info">
-        <p>From <a class ="from" href="#">Eno Uqa</a> at</p> 
-        <p class="date">13:16pm, May 8, 2015</p>
+        <a>From <a class ="from" href="#">Eno Uqa</a> at</a> 
+        <a class="date">13:16pm, May 8, 2015</a>
     </div>
-    <button class="przyciski">Reply</button>
-    <button class="przyciski">Forward</button>
-    <button class="przyciski">Move to</button>
-</div>
+   </div>
+
     <div id="tresci">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis provident, voluptate accusantium obcaecati ratione, dignissimos hic ipsam praesentium dolorum nesciunt nihil? Recusandae eligendi, quidem ea veritatis tenetur vitae cupiditate expedita.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non praesentium nihil quod. Fuga doloribus cumque sequi aut dolores ipsum optio, deserunt similique, ducimus, tenetur provident reprehenderit qui exercitationem voluptas!
     </div>
-
+</container> 
+</selektor>
+</main>
 </body>
