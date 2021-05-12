@@ -1,0 +1,45 @@
+body {
+    background-color: cadetblue;
+}
+
+main {
+   display:flex;
+   padding: 30px;
+   justify-content: center;
+    
+}
+
+.menu {
+ padding: 20px;
+}
+
+.menu > div {
+    background-color: white;
+    
+    padding-bottom:0px;
+}
+
+.menu p {
+    background-color: darkcyan;
+    padding:10px;
+    text-align: center;
+    
+    
+}
+
+.menu h1 {
+    border-bottom: dotted;
+    border-bottom-color: grey;
+    padding:10px;
+}
+
+    
+
+button {
+    background-color:lightcoral;
+    border-radius: 10px;
+    border-color:whitesmoke;
+    width:300px;
+    padding:10px;
+   
+}
