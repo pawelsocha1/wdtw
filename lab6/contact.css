@@ -1,0 +1,113 @@
+body {
+    margin:0;
+    background-color: #f3f4f5; 
+    }
+    main {
+        margin-left:300px;
+        margin-right:300px;
+        
+    }
+    
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        list-style: none;
+      }
+      
+      .nav a {
+          
+          font-size: 20px;
+          padding: 0.3em 1.2em;
+          border-radius: 3px;
+      } 
+      .active {
+          background-color: #ffc000;
+      } 
+      .nav a:hover {
+          background-color: #646d72;
+      }
+
+      .wrapper-clearfix {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: 1px solid #cad2d7;
+        margin-left:300px;
+        padding-top:50px;
+        padding-bottom:30px;
+        margin-right:300px;
+      }
+
+    .content {
+        display:grid;
+        grid-template-columns: 70% 30%;
+    }
+    .content h1 {
+        font-size: 66px;
+    }
+    .lead {
+        font-size: 24px;
+        line-height: 32px;
+        font-family: 'aleoitalic';  
+    }
+    
+    
+
+    .btn {
+        color:white;
+        background-color:rgb(255, 192, 0);
+        border:none;
+        width:161.422px;
+        height: 45px;
+        padding: 10px 21px 10px 21px;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        font-size:18px;
+    }
+
+    .btn:hover {
+        background-color:#646d72;
+    }
+    #name {
+        width:535px;
+        height:45px;
+    }
+
+    #message {
+        width:743px;
+        height:162px;
+    }
+
+    #email {
+        width:535px;
+        height:45px;
+    }
+      .main-wrapper-clearfix {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        border-top: 1px solid #cad2d7;
+        font-size: 5px;
+        color: #9fa6aa;
+        padding: 50px 300px 50px 300px;
+        margin-top: 20px;
+        margin-left:300px;
+        margin-right:300px;
+    }
+    
+    .foot-left{
+        font-size: 14px;
+    }
+    
+    .foot-right {
+        position:relative;
+        left:100%;
+        color: #9fa6aa;
+    }
+    
+    .social {
+        filter: invert(90%);
+        size:50px;
+    }
